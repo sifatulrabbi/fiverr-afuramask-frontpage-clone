@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary: #ff413a;
+}
+
 .bg-gradient {
     background: linear-gradient(
             90deg,
@@ -16,4 +24,16 @@
             rgba(0, 26, 255, 0.2)
         ),
         #0f0b22;
+}
+
+body {
+    background-color: #05040d;
+}
+
+.navbar-shadow {
+    box-shadow: 0 2px 5px #251b59;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
 }
