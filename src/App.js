@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Navbar } from "./features";
+import { BestCasinos, Hero, Navbar } from "./features";
 
 function App() {
     return (
@@ -7,6 +7,7 @@ function App() {
             <Navbar />
             <main className="mt-[60px] p-4">
                 <Hero />
+                <BestCasinos />
             </main>
         </>
     );
