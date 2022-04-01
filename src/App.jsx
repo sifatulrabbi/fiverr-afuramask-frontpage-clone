@@ -6,6 +6,7 @@ import {
     TopSitesSection,
     FaqSection,
     WhyUsSection,
+    FeatureSection,
 } from "./features";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
                     </h5>
                     <p>
                         ギャンブラーが自宅で、または休暇中に楽しむことができる
-                        <a href="/" className="underline text-primary">
+                        <a href="/" className="text-primary">
                             オンラインカジノゲーム
                         </a>
                         には八つのタイプがあります。
@@ -32,6 +33,7 @@ function App() {
                         今日、テクノロジーの出現により、カジノゲームはモバイル、タブレット、その他の電子機器にも対応しています。
                     </p>
                 </div>
+                <FeatureSection />
             </main>
         </>
     );
