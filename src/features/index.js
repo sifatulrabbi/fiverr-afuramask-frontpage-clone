@@ -6,3 +6,4 @@ export * from "./DescSection";
 export * from "./TopSitesSection";
 export * from "./FaqSection";
 export * from "./WhyUsSection";
+export * from "./CasinosTable";

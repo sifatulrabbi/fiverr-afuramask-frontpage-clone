@@ -1,6 +1,7 @@
 import React from "react";
 import { girlHappy } from "../assets";
 import { ColoredListItem, WhyUsArticle } from "../components";
+import { CasinosTable } from "./CasinosTable";
 
 export const WhyUsSection = () => {
     return (
@@ -90,6 +91,7 @@ export const WhyUsSection = () => {
                     listItemText="オンライン体験"
                     text="✅ 賭けるゲームやスポーツの範囲、無料でプレイするオプション、またはソフトウェアプロバイダーを選択するオプションなど、オンラインギャンブルの際にはプレーヤーにオプションを提供する必要があります。 これとは別に、私たちはすべてのパートナーに、世界中のプレーヤーに対応するために、ゲームのグラフィックとローカリゼーションで高い基準を満たすことを要求しています。"
                 />
+                <CasinosTable />
             </div>
         </section>
     );
