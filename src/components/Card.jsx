@@ -1,12 +1,16 @@
 import React from "react";
 import { casinoImg1 } from "../assets";
-import { CasinoCardChip } from "./CasinoCardChip";
+import { CasinoCardChip } from "./CardChip";
 import { CardRating } from "./CardRating";
 import { CasinoCardBall } from "./CasinoCardBall";
 
-export const CasinoCard = () => {
+export const CasinoCard = ({ alt, name, feature, icons, rating, logo }) => {
     return (
-        <div className="rounded-3xl bg-gradient-alt relative flex flex-col justify-center items-center gap-4 p-6">
+        <div
+            className={`relative flex flex-col justify-center items-center gap-4 p-6 min-w-[300px] ${
+                alt ? "bg-gradient" : "rounded-3xl bg-gradient-alt"
+            }`}
+        >
             <CasinoCardChip />
             <img
                 src={casinoImg1}

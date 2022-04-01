@@ -10,7 +10,9 @@ export const BestCasinos = () => {
             >
                 ベストの日本オンラインカジノ
             </h2>
-            <div>
+            <div className="flex flex-wrap justify-start items-start gap-3">
+                <CasinoCard />
+                <CasinoCard />
                 <CasinoCard />
             </div>
         </section>

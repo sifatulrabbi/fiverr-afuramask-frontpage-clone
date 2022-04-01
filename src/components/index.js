@@ -1,4 +1,4 @@
 export * from "./NavbarBtn";
-export * from "./CasinoCard";
+export * from "./Card";
 export * from "./CardRating";
 export * from "./CasinoCardBall";
