@@ -7,6 +7,7 @@ import {
     FaqSection,
     WhyUsSection,
     FeatureSection,
+    CasinoTypeSection,
 } from "./features";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
                     </p>
                 </div>
                 <FeatureSection />
+                <CasinoTypeSection />
             </main>
         </>
     );

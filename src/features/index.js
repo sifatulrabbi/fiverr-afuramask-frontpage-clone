@@ -9,3 +9,4 @@ export * from "./WhyUsSection";
 export * from "./CasinosTable";
 export * from "./FeatureCard";
 export * from "./FeatureSection";
+export * from "./CasinoTypeSection";

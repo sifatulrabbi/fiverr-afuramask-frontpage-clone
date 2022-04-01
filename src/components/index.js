@@ -5,3 +5,4 @@ export * from "./CardBall";
 export * from "./FaqQuestion";
 export * from "./ColoredListItem";
 export * from "./WhyUsArticle";
+export * from "./CasinoTypeCard";
