@@ -11,6 +11,12 @@ export const BettingSites = () => {
             <Card alt top="8" />
             <Card alt top="9" />
             <Card alt top="10" />
+            <a
+                href="/"
+                className="w-full bg-primary text-white py-[4px] text-center rounded-full"
+            >
+                もっと見る
+            </a>
         </div>
     );
 };

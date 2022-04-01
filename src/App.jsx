@@ -1,5 +1,11 @@
 import React from "react";
-import { BestCasinos, BettingSites, Hero, Navbar } from "./features";
+import {
+    BestCasinos,
+    BettingSites,
+    DescSection,
+    Hero,
+    Navbar,
+} from "./features";
 
 function App() {
     return (
@@ -11,6 +17,7 @@ function App() {
                     <BestCasinos />
                     <BettingSites />
                 </section>
+                <DescSection />
             </main>
         </>
     );
