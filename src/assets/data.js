@@ -119,3 +119,10 @@ export const slotSectionData = [
         text: "大吉カジノのチームのお気に入りカテゴリーはライブディーラーです。ライブカジノゲームはインタラクティブでソーシャルな要素を私のギャンブルに追加します。ネイティブスピーカーは24時間年中無休で対応してくれますし、必要に応じてネイティブスピーカーとチャットすることもできます。",
     },
 ];
+
+export const bestOnlineGames = [
+    { title: "スロット", img: gamblerImg },
+    { title: "ルーレット", img: dartsImg },
+    { title: "バカラ", img: diamondCardImg },
+    { title: "ポーカー", img: trumpImg },
+];
