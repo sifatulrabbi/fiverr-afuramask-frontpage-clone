@@ -37,3 +37,11 @@ body {
 .bg-primary {
     background-color: var(--color-primary);
 }
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.bg-dark {
+    background-color: #1d1a33;
+}
