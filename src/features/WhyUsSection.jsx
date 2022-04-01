@@ -66,7 +66,7 @@ export const WhyUsSection = () => {
                 </article>
             </div>
 
-            <div className="why-us-article rounded-2xl p-4">
+            <div className="card-gradient rounded-2xl p-4">
                 <WhyUsArticle
                     listItemText="ボーナスとプロモーション"
                     text="✅ 誰もがバンクロールに追加のブーストを与えるためのボーナスオファーを愛しており、ほとんどのオンラインカジノでそれらを利用できます。 私たちの専門家は、最も印象的なオファーを探すだけでなく、彼らが本当に期待通りに有益であることを確実にするために細心の注意を払っています。"
@@ -77,7 +77,7 @@ export const WhyUsSection = () => {
                 />
             </div>
 
-            <div className="why-us-article rounded-2xl p-4">
+            <div className="card-gradient rounded-2xl p-4">
                 <WhyUsArticle
                     listItemText="オンラインカジノサポート"
                     text="✅ トップサイトは広範なカスタマーサポートを提供するため、これを厳密に確認しています。 常にユーザーに連絡することをお勧めしますが、実際の人が効率的に質問に答えることの重要性を理解しています。日本語のサポートは大切なパートです。"

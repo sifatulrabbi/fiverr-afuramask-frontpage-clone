@@ -53,3 +53,18 @@ body {
 .accordion-content[aria-expanded="false"] {
     @apply max-h-0;
 }
+
+.card-gradient {
+    @apply relative overflow-hidden rounded-2xl p-4 text-white bg-[#110f1a] flex flex-col justify-start items-start gap-5;
+}
+
+.card-gradient::before {
+    @apply absolute top-0 right-0 left-0 h-full max-h-[250px];
+    content: "";
+    background: linear-gradient(
+        180deg,
+        rgba(95, 114, 189, 0.1),
+        rgba(155, 35, 234, 0.1) 54.09%,
+        rgba(4, 4, 13, 0.1)
+    );
+}

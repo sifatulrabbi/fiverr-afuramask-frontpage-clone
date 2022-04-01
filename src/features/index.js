@@ -7,3 +7,4 @@ export * from "./TopSitesSection";
 export * from "./FaqSection";
 export * from "./WhyUsSection";
 export * from "./CasinosTable";
+export * from "./FeatureCard";
