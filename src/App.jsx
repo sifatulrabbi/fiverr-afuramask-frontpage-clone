@@ -8,7 +8,9 @@ import {
     WhyUsSection,
     FeatureSection,
     CasinoTypeSection,
+    PopularGames,
 } from "./features";
+import { SlotGamesSection } from "./features/SlotGamesSection";
 
 function App() {
     return (
@@ -36,6 +38,8 @@ function App() {
                 </div>
                 <FeatureSection />
                 <CasinoTypeSection />
+                <PopularGames />
+                <SlotGamesSection />
             </main>
         </>
     );
