@@ -45,3 +45,11 @@ body {
 .bg-dark {
     background-color: #1d1a33;
 }
+
+.accordion-content {
+    @apply transition-[max-height] duration-300 ease-out overflow-hidden max-h-[2000px];
+}
+
+.accordion-content[aria-expanded="false"] {
+    @apply max-h-0;
+}

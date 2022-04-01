@@ -1,5 +1,11 @@
 import React from "react";
-import { DescSection, Hero, Navbar, TopSitesSection } from "./features";
+import {
+    DescSection,
+    Hero,
+    Navbar,
+    TopSitesSection,
+    FaqSection,
+} from "./features";
 
 function App() {
     return (
@@ -9,6 +15,7 @@ function App() {
                 <Hero />
                 <TopSitesSection />
                 <DescSection />
+                <FaqSection />
             </main>
         </>
     );

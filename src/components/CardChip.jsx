@@ -1,7 +1,6 @@
 import React from "react";
 
 export const CardChip = ({ alt, top }) => {
-    console.log(alt);
     return (
         <div
             className={`absolute top-3 left-3 flex justify-center items-center uppercase ${
