@@ -5,6 +5,7 @@ import {
     Navbar,
     TopSitesSection,
     FaqSection,
+    WhyUsSection,
 } from "./features";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <TopSitesSection />
                 <DescSection />
                 <FaqSection />
+                <WhyUsSection />
             </main>
         </>
     );
