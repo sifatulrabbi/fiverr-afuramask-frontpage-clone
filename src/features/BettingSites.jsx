@@ -3,7 +3,7 @@ import { Card } from "../components";
 
 export const BettingSites = () => {
     return (
-        <div className="flex flex-col justify-start items-center gap-4">
+        <div className="flex flex-col justify-start items-center gap-2">
             <Card alt top="4" />
             <Card alt top="5" />
             <Card alt top="6" />
