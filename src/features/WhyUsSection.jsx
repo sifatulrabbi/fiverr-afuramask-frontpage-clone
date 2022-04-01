@@ -1,14 +1,6 @@
 import React from "react";
 import { girlHappy } from "../assets";
-
-const ListItem = ({ text }) => {
-    return (
-        <p className="pl-3 gap-4 my-4">
-            <span className="h-2 w-2 rounded-full bg-primary inline-block mr-4" />
-            {text}
-        </p>
-    );
-};
+import { ColoredListItem } from "../components";
 
 export const WhyUsSection = () => {
     return (
@@ -25,12 +17,12 @@ export const WhyUsSection = () => {
                     このページでは、プロセスの各ステップについて説明します。これにより、大吉カジノのチームが探しているものと、各オンラインカジノ
                     日本をどのようにテストするかを確認できます。
                 </p>
-                <ListItem text={"評判"} />
+                <ColoredListItem text={"評判"} />
                 <p>
                     ✅
                     そこから、すべてのサイトが迅速な引き出しと公正なRTPで高いペイアウト率を提供することが不可欠です。
                 </p>
-                <ListItem
+                <ColoredListItem
                     text={
                         <>
                             バンキングと入
