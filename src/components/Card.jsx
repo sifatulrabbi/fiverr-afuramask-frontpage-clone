@@ -4,14 +4,14 @@ import { CardChip } from "./CardChip";
 import { CardRating } from "./CardRating";
 import { CardBall } from "./CardBall";
 
-export const Card = ({ alt, name, feature, icons, rating, logo }) => {
+export const Card = ({ alt, name, feature, icons, rating, logo, top }) => {
     return (
         <div
-            className={`relative flex flex-col justify-center items-center gap-4 p-6 min-w-[300px] ${
+            className={`relative flex flex-col justify-center items-center gap-4 p-6 min-w-[300px] text-white ${
                 alt ? "bg-gradient" : "rounded-3xl bg-gradient-alt"
             }`}
         >
-            <CardChip />
+            <CardChip alt={alt} top={top} />
             <img
                 src={casinoImg1}
                 alt="casino 1"

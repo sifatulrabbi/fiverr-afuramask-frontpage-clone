@@ -1,5 +1,5 @@
 import React from "react";
-import { BestCasinos, Hero, Navbar } from "./features";
+import { BestCasinos, BettingSites, Hero, Navbar } from "./features";
 
 function App() {
     return (
@@ -7,7 +7,10 @@ function App() {
             <Navbar />
             <main className="mt-[60px] p-4">
                 <Hero />
-                <BestCasinos />
+                <section className="flex flex-col justify-start items-start gap-4">
+                    <BestCasinos />
+                    <BettingSites />
+                </section>
             </main>
         </>
     );
