@@ -1,5 +1,5 @@
 import React from "react";
-import { CasinoCard } from "../components";
+import { Card } from "../components";
 
 export const BestCasinos = () => {
     return (
@@ -11,9 +11,9 @@ export const BestCasinos = () => {
                 ベストの日本オンラインカジノ
             </h2>
             <div className="flex flex-wrap justify-start items-start gap-3">
-                <CasinoCard />
-                <CasinoCard />
-                <CasinoCard />
+                <Card />
+                <Card />
+                <Card />
             </div>
         </section>
     );

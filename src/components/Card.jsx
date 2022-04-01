@@ -1,17 +1,17 @@
 import React from "react";
 import { casinoImg1 } from "../assets";
-import { CasinoCardChip } from "./CardChip";
+import { CardChip } from "./CardChip";
 import { CardRating } from "./CardRating";
-import { CasinoCardBall } from "./CasinoCardBall";
+import { CardBall } from "./CardBall";
 
-export const CasinoCard = ({ alt, name, feature, icons, rating, logo }) => {
+export const Card = ({ alt, name, feature, icons, rating, logo }) => {
     return (
         <div
             className={`relative flex flex-col justify-center items-center gap-4 p-6 min-w-[300px] ${
                 alt ? "bg-gradient" : "rounded-3xl bg-gradient-alt"
             }`}
         >
-            <CasinoCardChip />
+            <CardChip />
             <img
                 src={casinoImg1}
                 alt="casino 1"
@@ -26,11 +26,11 @@ export const CasinoCard = ({ alt, name, feature, icons, rating, logo }) => {
             <CardRating rating="4.5" />
             <span className="text-gray-400 text-xs">入出金方法</span>
             <div className="flex flex-wrap justify-center items-center gap-1 px-4">
-                <CasinoCardBall icon="" />
-                <CasinoCardBall icon="" />
-                <CasinoCardBall icon="" />
-                <CasinoCardBall icon="" />
-                <CasinoCardBall icon="" />
+                <CardBall icon="" />
+                <CardBall icon="" />
+                <CardBall icon="" />
+                <CardBall icon="" />
+                <CardBall icon="" />
             </div>
             <button className="min-h-[40px] py-2 px-5 rounded-3xl bg-primary min-w-[212px]">
                 今すぐプレイ!
