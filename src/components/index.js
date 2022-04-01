@@ -4,3 +4,4 @@ export * from "./CardRating";
 export * from "./CardBall";
 export * from "./FaqQuestion";
 export * from "./ColoredListItem";
+export * from "./WhyUsArticle";
