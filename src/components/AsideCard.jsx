@@ -11,9 +11,9 @@ export const AsideCard = ({ title, img }) => {
                 alt={title}
                 width="90"
                 height="90"
-                className="object-cover"
+                className="object-cover w-[90px] h-[90px]"
             />
-            <span>{title}</span>
+            <span className="text-xs text-primary font-bold">{title}</span>
         </a>
     );
 };
