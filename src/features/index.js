@@ -14,3 +14,4 @@ export * from "./PopularGames";
 export * from "./CurrencySection";
 export * from "./FaqBottom";
 export * from "./FaqAccordionGroup";
+export * from "./Footer";
