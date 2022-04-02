@@ -1,12 +1,20 @@
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
-import { useRecoilValue } from "recoil";
+import { useRecoilValue, useRecoilState } from "recoil";
 import { navbarState, navLinksSelector } from "../../states";
 import { v4 } from "uuid";
 
 export const NavbarMenuMain = () => {
     const navLinks = useRecoilValue(navLinksSelector);
-    const state = useRecoilValue(navbarState);
+    const [state, setState] = useRecoilState(navbarState);
+
+    function updateSubMenu(name) {
+        setState((prev) => ({
+            ...prev,
+            activeMenuName: name,
+            showSubMenu: true,
+        }));
+    }
 
     return (
         <div
@@ -23,7 +31,10 @@ export const NavbarMenuMain = () => {
                         key={v4()}
                         className="hover:bg-white hover:bg-opacity-5 rounded-t-2xl w-full py-5 px-4 border-b-[hsla(0,0%,100%,.1)] border-b-[1px] last:border-b-0"
                     >
-                        <button className="w-full h-full flex flex-row justify-between font-bold ">
+                        <button
+                            className="w-full h-full flex flex-row justify-between font-bold"
+                            onClick={() => updateSubMenu(link.name)}
+                        >
                             <span>{link.name}</span>
                             <BsChevronRight className="text-xl text-white" />
                         </button>
