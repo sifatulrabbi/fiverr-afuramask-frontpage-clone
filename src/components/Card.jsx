@@ -26,7 +26,9 @@ export const Card = ({
                 alt="casino 1"
                 height="64px"
                 width="64px"
-                className={`py-2 ${alt ? "md:h-[90px] w-auto" : ""}`}
+                className={`py-2 w-[64px] h-[64px] ${
+                    alt ? "md:h-[90px] w-auto" : ""
+                }`}
             />
             <p className="font-bold text-center w-full">{name}</p>
             <p className="text-lg text-center w-full">{description}</p>
@@ -35,8 +37,8 @@ export const Card = ({
                 入出金方法
             </span>
             <div
-                className={`grid grid-cols-4 gap-1 px-4 w-full sm:w-max ${
-                    alt ? "lg:grid-cols-2" : ""
+                className={`grid grid-cols-4 gap-1 px-4 w-max ${
+                    alt ? "lg:grid-cols-2  w-full" : ""
                 }`}
             >
                 {methods?.map((method) => (
@@ -45,7 +47,7 @@ export const Card = ({
             </div>
             <div className="flex flex-col justify-center items-center gap-4 w-max">
                 <button
-                    className={`min-h-[40px] py-2 px-3 rounded-3xl bg-primary  ${
+                    className={`min-h-[40px] py-2 px-3 rounded-3xl bg-primary w-auto  ${
                         alt ? "lg:min-w-max" : ""
                     }`}
                 >

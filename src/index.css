@@ -116,8 +116,23 @@ body {
     @apply w-full h-full;
 }
 
+.navmenu {
+    animation: navbar-anim 0.2s ease-out forwards;
+}
+
 @media (min-width: 1024px) {
     .navbar-shadow {
         box-shadow: none;
+    }
+}
+
+@keyframes navbar-anim {
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
 }

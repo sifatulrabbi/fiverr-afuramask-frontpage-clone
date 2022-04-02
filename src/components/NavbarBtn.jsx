@@ -3,7 +3,7 @@ import React from "react";
 export const NavbarBtn = ({ onClick }) => {
     return (
         <button
-            className="rounded-[50%] w-10 h-10 bg-primary relative"
+            className="rounded-[50%] w-10 h-10 bg-primary relative xl:hidden"
             onClick={onClick}
         >
             <div className="h-[2px] bg-white w-[30%] absolute left-1/2 -translate-x-1/2 top-[30%]" />

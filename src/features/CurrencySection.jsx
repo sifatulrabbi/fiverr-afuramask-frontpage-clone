@@ -157,7 +157,7 @@ export const CurrencySection = () => {
                     <img
                         src={girlSmile}
                         alt=""
-                        className="absolute bottom-0 translate-y-full sm:left-1/2 -translate-x-1/2 md:translate-y-0 md:-translate-x-0 md:relative md:left-0"
+                        className="absolute bottom-0 translate-y-full left-1/2 -translate-x-1/2 md:translate-y-0 md:-translate-x-0 md:relative md:left-0"
                     />
                 </div>
             </div>
