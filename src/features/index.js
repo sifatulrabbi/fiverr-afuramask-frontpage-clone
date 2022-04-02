@@ -15,3 +15,4 @@ export * from "./CurrencySection";
 export * from "./FaqBottom";
 export * from "./FaqAccordionGroup";
 export * from "./Footer";
+export * from "./SlotGamesSection";

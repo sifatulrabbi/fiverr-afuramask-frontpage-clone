@@ -8,6 +8,7 @@ export const Footer = () => {
                     background: linear-gradient(180deg,rgba(95,114,189,.2),rgba(155,35,234,.2) 45%,rgba(4,4,13,.2));
                 }
             `}</style>
+
             <footer className="footer flex flex-col justify-center items-center mt-10 rounded-t-2xl p-6 pb-14 text-white">
                 <div className="w-full flex flex-row flex-wrap justify-center items-center">
                     <div className="flex flex-col justify-center items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full">

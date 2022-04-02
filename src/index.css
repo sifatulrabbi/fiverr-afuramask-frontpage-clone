@@ -99,3 +99,18 @@ body {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+.navbar-menu {
+    background-color: #110f1a;
+    @apply text-white h-screen border-t-gray-700 border-t-[1px] flex flex-col justify-start items-start;
+}
+
+.navbar-menu-main {
+    background-image: linear-gradient(
+        0deg,
+        rgba(95, 114, 189, 0.2),
+        rgba(155, 35, 234, 0.2) 54.09%,
+        rgba(4, 4, 13, 0.2)
+    );
+    @apply w-full h-full;
+}

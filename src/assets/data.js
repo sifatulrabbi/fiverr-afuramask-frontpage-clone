@@ -161,3 +161,343 @@ export const faqBottomData = [
         text: "✅ ランドカジノとは実際に店舗を構えて運営されているカジノのことです。 一般的にカジノと聞いて思い浮かぶ、ベガスのカジノがランドカジノと呼ばれます。当然ながら海外に行かなくては遊ぶことができません。オンラインカジノの違いは実際の店舗の有無だけではなく、仕組みやプレイ環境などさまざまな面で大きく異なります。カジノゲームをプレイしたいときに、海外へ行くは必要はありません！大吉カジノのリストからオンラインカジノを選んでプレイすることが出来ます！",
     },
 ];
+
+export const navLinks = [
+    {
+        name: "日本のオンラインカジノ",
+        subLinks: [
+            {
+                name: "日本人プレーヤーにおすすめの新オンラインカジノ 2022",
+                path: "/",
+            },
+            {
+                name: "トップ10評価の高いベストオンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "トップ10評価の高いベストオンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "モバイルカジノ",
+                path: "/",
+            },
+            {
+                name: "最高のペイアウトオンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "オンラインギャンブル",
+                path: "/",
+            },
+            {
+                name: "日本のライブカジノ",
+                path: "/",
+            },
+            {
+                name: "リアルマネーカジノ",
+                path: "/",
+            },
+            {
+                name: "仮想通貨オンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "最低入金額の少ないカジノ",
+                path: "/",
+            },
+            {
+                name: "日本語サポートが充実のオンラインカジノ",
+                path: "/",
+            },
+        ],
+    },
+    {
+        name: "オンラインカジノボーナス",
+        subLinks: [
+            {
+                name: "入金不要ボーナス",
+                path: "/",
+            },
+            {
+                name: "オンラインカジノウエルカムボーナス",
+                path: "/",
+            },
+            {
+                name: "100円を入金して2000円もらえますカジノボーナス",
+                path: "/",
+            },
+            {
+                name: "ボーナスコード",
+                path: "/",
+            },
+            {
+                name: "オンラインカジノ登録ボーナス",
+                path: "/",
+            },
+            {
+                name: "ハイローラー",
+                path: "/",
+            },
+            {
+                name: "オンラインカジノのキャッシュバックボーナス",
+                path: "/",
+            },
+            {
+                name: "ベストのフリースピンボーナス",
+                path: "/",
+            },
+            {
+                name: "モバイルカジノボーナス",
+                path: "/",
+            },
+            {
+                name: "初回入金ボーナス",
+                path: "/",
+            },
+            {
+                name: "排他的なボーナス",
+                path: "/",
+            },
+        ],
+    },
+    {
+        name: "オンラインカジノ 入金",
+        subLinks: [
+            {
+                name: "Visa「ビザ」",
+                path: "/",
+            },
+            {
+                name: "MasterCard 「マスターカード」",
+                path: "/",
+            },
+            {
+                name: "JCB",
+                path: "/",
+            },
+            {
+                name: "SticPay 「スティックペイ」",
+                path: "/",
+            },
+            {
+                name: "Venus Point 「ヴィーナスポイント」",
+                path: "/",
+            },
+            {
+                name: "Neteller「ネッテラーカジノ」",
+                path: "/",
+            },
+            {
+                name: "Much Better（マッチベター）",
+                path: "/",
+            },
+            {
+                name: "Paypal 「ペイパル」",
+                path: "/",
+            },
+            {
+                name: "iWallet「アイウォレット」",
+                path: "/",
+            },
+            {
+                name: "Bitcoin「ビットコイン」",
+                path: "/",
+            },
+            {
+                name: "Bank Transfer 「銀行振込」",
+                path: "/",
+            },
+            {
+                name: "Credit Card 「クレジットカード」",
+                path: "/",
+            },
+            {
+                name: "EcoPayz",
+                path: "/",
+            },
+            {
+                name: "Webanq（ウェバンク）",
+                path: "/",
+            },
+            {
+                name: "ペイメントサービスBXONE",
+                path: "/",
+            },
+            {
+                name: "日本円 オンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "日本円 JBANQ (ジェイバンク)",
+                path: "/",
+            },
+            {
+                name: "Entropay 「エントロペイ」",
+                path: "/",
+            },
+            {
+                name: "Astropay 「アストロペイ」",
+                path: "/",
+            },
+            {
+                name: "Tether「テザー」",
+                path: "/",
+            },
+            {
+                name: "Ethereum 「イーサリアム」",
+                path: "/",
+            },
+            {
+                name: "Tiger Pay 「タイガーペイ」",
+                path: "/",
+            },
+        ],
+    },
+    {
+        name: "オンライン カジノ ゲーム",
+        subLinks: [
+            {
+                name: "バカラ",
+                path: "/",
+            },
+            {
+                name: "スロット",
+                path: "/",
+            },
+            {
+                name: "ポーカー",
+                path: "/",
+            },
+            {
+                name: "ルーレット",
+                path: "/",
+            },
+            {
+                name: "ブラックジャック",
+                path: "/",
+            },
+        ],
+    },
+    {
+        name: "オンラインカジノレビュー",
+        subLinks: [
+            {
+                name: "ベラジョンカジノ「Vera&John」",
+                path: "/",
+            },
+            {
+                name: "カジノゼット「Casino-Z」",
+                path: "/",
+            },
+            {
+                name: "Unique casino (ユニークオンラインカジノ)",
+                path: "/",
+            },
+            {
+                name: "ゲーミングクラブオンラインカジノ「Gaming club casino」",
+                path: "/",
+            },
+            {
+                name: "Live Casino House (ライブカジノハウス)",
+                path: "/",
+            },
+            {
+                name: "Casino Secret カジノシークレット",
+                path: "/",
+            },
+            {
+                name: "レオベガス「Leo Vegas」",
+                path: "/",
+            },
+            {
+                name: "まね吉「Manekichi」オンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "バオ・カジノ「Bao Casino」",
+                path: "/",
+            },
+            {
+                name: "ニトロカジノ「Nitro Casino」",
+                path: "/",
+            },
+            {
+                name: "ジャスト・スピンカジノ「Just Spin」",
+                path: "/",
+            },
+            {
+                name: "エンパイア777 カジノ「Empire777」",
+                path: "/",
+            },
+            {
+                name: "Bitcasino 「ビットカジノ」",
+                path: "/",
+            },
+            {
+                name: "Spin samurai 「スピンサムライカジノ」",
+                path: "/",
+            },
+            {
+                name: "1xbet(ワンバイベット)",
+                path: "/",
+            },
+            {
+                name: "Royal Vegas(ロイヤルベガス )",
+                path: "/",
+            },
+            {
+                name: "Royal Panda Online Casino – パンダロイヤル オンラインカジノ",
+                path: "/",
+            },
+            {
+                name: "River Belle Casino (リバーベルオンラインカジノ)",
+                path: "/",
+            },
+            {
+                name: "Mummys Gold Casino (マミーズゴールドカジノ)",
+                path: "/",
+            },
+            {
+                name: "Lucky Nugget Casino(ラッキーナゲットカジノ)",
+                path: "/",
+            },
+            {
+                name: "JackpotCity Casino(ジャックポットシティカジノ)",
+                path: "/",
+            },
+            {
+                name: "Cherry Online Casino (チェリーオンラインカジノ)",
+                path: "/",
+            },
+            {
+                name: "JoyCasino ジョイカジノ",
+                path: "/",
+            },
+            {
+                name: "Inter Casino (インターカジノ)",
+                path: "/",
+            },
+            {
+                name: "Casino-X「カジノエックス」",
+                path: "/",
+            },
+            {
+                name: "CasiTabi カジ旅",
+                path: "/",
+            },
+            {
+                name: "Lucky Daysカジノ（ラッキーデイズカジノ）",
+                path: "/",
+            },
+            {
+                name: "Lucky Niki Casino ラッキーニッキーカジノ",
+                path: "/",
+            },
+            {
+                name: "バルカンベガス 「Vulkan Vegas」",
+                path: "/",
+            },
+        ],
+    },
+];

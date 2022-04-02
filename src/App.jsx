@@ -1,4 +1,5 @@
 import React from "react";
+import { useRecoilValue } from "recoil";
 import {
     DescSection,
     Hero,
@@ -13,9 +14,22 @@ import {
     FaqBottom,
     Footer,
 } from "./features";
-import { SlotGamesSection } from "./features/SlotGamesSection";
+import { SlotGamesSection } from "./features";
+import { showMenuSelector } from "./states";
 
 function App() {
+    const navMenuActive = useRecoilValue(showMenuSelector);
+
+    function lockScroll() {
+        if (navMenuActive) document.body.style.overflow = "hidden";
+        else document.body.style.overflow = "auto";
+    }
+
+    React.useEffect(() => {
+        lockScroll();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [navMenuActive]);
+
     return (
         <>
             <Navbar />
