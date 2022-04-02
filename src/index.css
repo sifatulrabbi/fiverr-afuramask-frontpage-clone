@@ -70,3 +70,32 @@ body {
         rgba(4, 4, 13, 0.1)
     );
 }
+
+.table {
+    @apply text-white border-collapse table-fixed w-full h-10;
+    caption-side: bottom;
+}
+
+.table th,
+.table td {
+    @apply p-2 bg-primary;
+    border: 4px solid #110f1a;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.table td {
+    @apply bg-[#1d1a33];
+}
+
+.table tr td:first-child,
+.table tr th:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.table tr td:last-child,
+.table tr th:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

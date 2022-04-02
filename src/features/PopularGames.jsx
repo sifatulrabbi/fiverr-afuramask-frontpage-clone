@@ -2,16 +2,18 @@ import React from "react";
 
 export const PopularGames = () => {
     return (
-        <section className="card-gradient mt-10">
+        <section className="card-gradient mt-10" style={{ padding: "8px" }}>
             <h5 className="font-bold text-white text-xl text-center">
                 日本には人気のオンラインカジノゲーム
             </h5>
-            <table className="text-white">
-                <tbody>
+            <table className="table">
+                <thead>
                     <tr>
                         <th>オンラインカジノ ゲームの種類</th>
                         <th>特徴</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>テーブルゲーム</td>
                         <td>ブラックジャック・ルーレット・バカラなど</td>

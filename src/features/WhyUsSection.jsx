@@ -77,7 +77,10 @@ export const WhyUsSection = () => {
                 />
             </div>
 
-            <div className="card-gradient rounded-2xl p-4">
+            <div
+                className="card-gradient rounded-2xl"
+                style={{ padding: "8px" }}
+            >
                 <WhyUsArticle
                     listItemText="オンラインカジノサポート"
                     text="✅ トップサイトは広範なカスタマーサポートを提供するため、これを厳密に確認しています。 常にユーザーに連絡することをお勧めしますが、実際の人が効率的に質問に答えることの重要性を理解しています。日本語のサポートは大切なパートです。"
