@@ -12,3 +12,5 @@ export * from "./FeatureSection";
 export * from "./CasinoTypeSection";
 export * from "./PopularGames";
 export * from "./CurrencySection";
+export * from "./FaqBottom";
+export * from "./FaqAccordionGroup";

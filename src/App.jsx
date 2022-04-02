@@ -10,6 +10,7 @@ import {
     CasinoTypeSection,
     PopularGames,
     CurrencySection,
+    FaqBottom,
 } from "./features";
 import { SlotGamesSection } from "./features/SlotGamesSection";
 
@@ -42,6 +43,7 @@ function App() {
                 <PopularGames />
                 <SlotGamesSection />
                 <CurrencySection />
+                <FaqBottom />
             </main>
         </>
     );
