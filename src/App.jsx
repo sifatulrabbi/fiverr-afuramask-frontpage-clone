@@ -1,5 +1,6 @@
 import React from "react";
 import { useRecoilValue } from "recoil";
+import { GotoTopBtn } from "./components/GotoTopBtn";
 import {
     DescSection,
     Hero,
@@ -34,6 +35,7 @@ function App() {
     return (
         <>
             <Navbar />
+            <GotoTopBtn />
             <div className="w-full h-max flex flex-col justify-start items-start p-4 md:px-[8vw] xl:flex-row xl:gap-8">
                 <main className="mt-[60px] xl:max-w-[75%]">
                     <Hero />
