@@ -19,3 +19,4 @@ export { default as diamondCardImg } from "./diamond-card-img.png";
 export { default as aceOfHearts } from "./ace-of-hearts.png";
 export { default as gamblerEightBall } from "./gambler-eight-ball.png";
 export { default as eleganceImg } from "./elegance-img.png";
+export { default as chartImg } from "./chart-img.jpg";

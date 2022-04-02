@@ -11,6 +11,7 @@ export const SlotGamesSection = () => {
             <IntroSlotGame />
             {slotSectionData.map(({ img, listItemText, text }) => (
                 <SectionCard
+                    key={v4()}
                     img={img}
                     listItemText={
                         <span className="font-bold text-xl">
@@ -20,7 +21,7 @@ export const SlotGamesSection = () => {
                     text={text}
                 />
             ))}
-            <div className="flex flex-col justify-start items-center bg-[#110f1a] p-4 mt-10 rounded-2xl">
+            <div className="flex flex-col justify-start items-center bg-[#110f1a] p-4 rounded-2xl">
                 <h2 className="font-white text-2xl font-bold text-white text-center">
                     最高の日本オンラインカジノゲーム
                 </h2>

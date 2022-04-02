@@ -56,10 +56,12 @@ body {
 
 .card-gradient {
     @apply relative overflow-hidden rounded-2xl p-4 text-white bg-[#110f1a] flex flex-col justify-start items-start gap-5;
+    z-index: 1;
 }
 
 .card-gradient::before {
     @apply absolute top-0 right-0 left-0 h-full max-h-[250px];
+    z-index: -1;
     content: "";
     background: linear-gradient(
         180deg,

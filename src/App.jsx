@@ -9,6 +9,7 @@ import {
     FeatureSection,
     CasinoTypeSection,
     PopularGames,
+    CurrencySection,
 } from "./features";
 import { SlotGamesSection } from "./features/SlotGamesSection";
 
@@ -40,6 +41,7 @@ function App() {
                 <CasinoTypeSection />
                 <PopularGames />
                 <SlotGamesSection />
+                <CurrencySection />
             </main>
         </>
     );

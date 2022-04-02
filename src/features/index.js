@@ -11,3 +11,4 @@ export * from "./FeatureCard";
 export * from "./FeatureSection";
 export * from "./CasinoTypeSection";
 export * from "./PopularGames";
+export * from "./CurrencySection";
