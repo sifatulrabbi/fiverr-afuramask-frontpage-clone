@@ -2,9 +2,16 @@ import React from "react";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { v4 } from "uuid";
 
+/**
+ * @param {{rating: string}} param0
+ * @returns
+ */
 export const CardRating = ({ rating }) => {
     const ratings = (() => {
-        const ratingIntArr = rating.split(".");
+        const ratingIntArr =
+            typeof rating === "string"
+                ? rating.split(".")
+                : String(rating).split(".");
         let fullStar = Number(ratingIntArr[0]);
         const half = ratingIntArr[1] ? true : false;
         const arr = [];

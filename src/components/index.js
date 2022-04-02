@@ -8,3 +8,4 @@ export * from "./WhyUsArticle";
 export * from "./CasinoTypeCard";
 export * from "./IntroSlotGame";
 export * from "./SectionCard";
+export * from "./AsideCard";

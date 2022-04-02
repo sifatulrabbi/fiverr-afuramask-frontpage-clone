@@ -9,7 +9,9 @@ export const CardChip = ({ alt, top }) => {
                     : "bg-primary px-[5px] py-[2px] font-bold rounded-full text-white"
             }`}
         >
-            <span className="text-xs">{top}</span>
+            <span className="text-xs">
+                {Number(top) < 4 ? "TOP " + top : top}
+            </span>
         </div>
     );
 };

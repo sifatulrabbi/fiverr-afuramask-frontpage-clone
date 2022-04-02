@@ -14,6 +14,33 @@ import {
     aceOfHearts,
     gamblerEightBall,
     eleganceImg,
+    casinoDays,
+    ecoPayz,
+    jcb,
+    mastercard,
+    muchBetter,
+    ggBetLogo,
+    supremoCasino,
+    card,
+    entroPay,
+    sticpay,
+    bonsCasino,
+    venusPoint,
+    bankTransfer,
+    alohaShark,
+    bitcoin,
+    ethereum,
+    umiumi,
+    wazamba,
+    winsPark,
+    betStorm,
+    visa,
+    neteller,
+    kingj,
+    paypal,
+    wining,
+    nitro,
+    justSpin,
 } from "./images";
 
 export const faqData = {
@@ -499,5 +526,122 @@ export const navLinks = [
                 path: "/",
             },
         ],
+    },
+];
+
+export const topFeatureSpCardData = [
+    {
+        id: "1",
+        name: "カジノデイズ 「Casino Days」",
+        description: "最大1000ドル＋フリースピン合計350回分！",
+        img: casinoDays,
+        rating: "5",
+        methods: [ecoPayz, jcb, mastercard, muchBetter],
+    },
+    {
+        id: "2",
+        name: " スプリーモカジノ「Supremo」",
+        description: "「Sweet Bonanza(スイートボナンザ）」の21フリースピン",
+        img: supremoCasino,
+        rating: "4.5",
+        methods: [card, ecoPayz, entroPay, sticpay],
+    },
+    {
+        id: "3",
+        name: "ボンズカジノ「Bons casino」",
+        description: "入金不要ボーナス40$",
+        img: bonsCasino,
+        rating: "4",
+        methods: [card, mastercard, sticpay, venusPoint],
+    },
+];
+
+export const topFeatureCardData = [
+    {
+        id: "4",
+        name: "GG.BET",
+        description: "最大¥32000の預金ボーナス",
+        img: ggBetLogo,
+        rating: "4",
+        methods: [bankTransfer, card, mastercard, muchBetter],
+    },
+    {
+        id: "5",
+        name: "アロハシャークカジノ「Aloha Shark」",
+        description: "20フリースピン入金不要ボーナス＋1000$までのボーナス",
+        img: alohaShark,
+        rating: "4.5",
+        methods: [bitcoin, card, ecoPayz, ethereum, jcb],
+    },
+    {
+        id: "6",
+        name: "うみうみカジノ「Umiiumii」",
+        description: "合計＄777ボーナス",
+        img: umiumi,
+        rating: "4.5",
+        methods: [ecoPayz, jcb, mastercard, venusPoint],
+    },
+    {
+        id: "7",
+        name: "ワザンバ「Wazamba」",
+        description: "$ 1.500",
+        img: wazamba,
+        rating: "4",
+        methods: [card, jcb, mastercard, muchBetter, venusPoint],
+    },
+    {
+        id: "8",
+        name: "ウィンズパークカジノ「WinsPark」",
+        description: "500円入金不要ボーナス",
+        img: winsPark,
+        rating: "4.5",
+        methods: [bankTransfer, card, ecoPayz, jcb, mastercard],
+    },
+    {
+        id: "9",
+        name: "BetStorm",
+        description: " 10円をベットして、30円のフリーベットを獲得 ",
+        img: betStorm,
+        rating: "5",
+        methods: [card, mastercard, visa, neteller],
+    },
+    {
+        id: "10",
+        name: "KingJ (キングJ)",
+        description: " 200% + ¥11500 ",
+        img: kingj,
+        rating: "5",
+        methods: [mastercard, paypal, visa, neteller],
+    },
+];
+
+export const asideData = [
+    {
+        img: umiumi,
+        title: "合計＄777ボーナス",
+    },
+    {
+        img: supremoCasino,
+        title: "「Sweet Bonanza(スイートボナンザ）」の21フリースピン...",
+    },
+    {
+        img: ggBetLogo,
+        title: " 最大¥32000の預金ボーナス",
+    },
+    {
+        img: wining,
+        title: "ウェルカムボーナスは100％最高$1,000...",
+    },
+    {
+        img: casinoDays,
+        title: "最大1000ドル＋フリースピン合計350回分！...",
+    },
+    {
+        img: nitro,
+        title: "日本円で毎日もらえる新しいボーナス。...",
+    },
+    {
+        img: justSpin,
+        title: "登録するだけ100 Fire Joker 「ファイアジョーカー」の入金不要フリー...",
     },
 ];

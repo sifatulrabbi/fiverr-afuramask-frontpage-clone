@@ -115,7 +115,7 @@ export const CurrencySection = () => {
                 <h2 className="font-white text-2xl font-bold text-white text-center">
                     最高の日本オンラインカジノゲーム
                 </h2>
-                <div className="grid w-full grid-cols-2 justify-center items-center gap-2 mt-4">
+                <div className="grid w-full grid-cols-2 justify-center items-center gap-2 mt-4 md:grid-cols-4">
                     <CasinoTypeCard
                         title="入金不要ボーナス"
                         img="https://xn--lck0a4d411qemf.jp/wp-content/uploads/2021/01/insurance.png"
@@ -147,8 +147,8 @@ export const CurrencySection = () => {
                     2016年、新しい賭博法は、日本のプレーヤーのためのトップのオンラインカジノの既存の禁止を排除し、同様にオフラインカジノリゾートの構築を開始することを承認されました。法案はまだ明確に承認されておらず、政府が変更を行うまでにはさらに時間がかかる可能性がありますが、少なくとも好ましい結果が得られる見込みがあります。
                 </p>
             </div>
-            <div className="bg-gradient rounded-2xl p-4 pb-[250px] overflow-hidden">
-                <p className="text-white relative">
+            <div className="bg-gradient rounded-2xl p-4 pb-[250px] overflow-hidden md:pb-0">
+                <div className="text-white relative md:flex md:flex-row">
                     おそらく、陸上カジノの合法化に続いて、日本が承認したオンラインカジノも登場するでしょう。また、日本のインターネットカジノが合法になるのを待っている間、大吉のリストから日本のプレーヤー向けの最高のオンラインカジノでプレイすることができます。
                     <br />
                     特に、ヨーロッパの各国、カナダ、オーストラリアなどの先進国でファンが多く、日本でも2010年頃から大手online
@@ -157,9 +157,9 @@ export const CurrencySection = () => {
                     <img
                         src={girlSmile}
                         alt=""
-                        className="absolute bottom-0 translate-y-full left-1/2 -translate-x-1/2"
+                        className="absolute bottom-0 translate-y-full sm:left-1/2 -translate-x-1/2 md:translate-y-0 md:-translate-x-0 md:relative md:left-0"
                     />
-                </p>
+                </div>
             </div>
         </section>
     );
