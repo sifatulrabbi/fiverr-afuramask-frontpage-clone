@@ -532,7 +532,7 @@ export const topFeatureCardData = [
         name: "カジノデイズ 「Casino Days」",
         description: "最大1000ドル＋フリースピン合計350回分！",
         img: casinoDays,
-        rating: 5,
+        rating: "5",
         methods: [ecoPayz, jcb, mastercard, muchBetter],
     },
     {
@@ -540,7 +540,7 @@ export const topFeatureCardData = [
         name: " スプリーモカジノ「Supremo」",
         description: "「Sweet Bonanza(スイートボナンザ）」の21フリースピン",
         img: supremoCasino,
-        rating: 4.5,
+        rating: "4.5",
         methods: [card, ecoPayz, entroPay, sticpay],
     },
     {
@@ -548,7 +548,7 @@ export const topFeatureCardData = [
         name: "ボンズカジノ「Bons casino」",
         description: "入金不要ボーナス40$",
         img: bonsCasino,
-        rating: 4,
+        rating: "4",
         methods: [card, mastercard, sticpay, venusPoint],
     },
     {
@@ -556,7 +556,7 @@ export const topFeatureCardData = [
         name: "GG.BET",
         description: "最大¥32000の預金ボーナス",
         img: ggBetLogo,
-        rating: 4,
+        rating: "4",
         methods: [bankTransfer, card, mastercard, muchBetter],
     },
     {
@@ -564,7 +564,7 @@ export const topFeatureCardData = [
         name: "アロハシャークカジノ「Aloha Shark」",
         description: "20フリースピン入金不要ボーナス＋1000$までのボーナス",
         img: alohaShark,
-        rating: 4.5,
+        rating: "4.5",
         methods: [bitcoin, card, ecoPayz, ethereum, jcb],
     },
     {
@@ -572,7 +572,7 @@ export const topFeatureCardData = [
         name: "うみうみカジノ「Umiiumii」",
         description: "合計＄777ボーナス",
         img: umiumi,
-        rating: 4.5,
+        rating: "4.5",
         methods: [ecoPayz, jcb, mastercard, venusPoint],
     },
     {
@@ -580,7 +580,7 @@ export const topFeatureCardData = [
         name: "ワザンバ「Wazamba」",
         description: "$ 1.500",
         img: wazamba,
-        rating: 4,
+        rating: "4",
         methods: [card, jcb, mastercard, muchBetter, venusPoint],
     },
     {
@@ -588,7 +588,7 @@ export const topFeatureCardData = [
         name: "ウィンズパークカジノ「WinsPark」",
         description: "500円入金不要ボーナス",
         img: winsPark,
-        rating: 4.5,
+        rating: "4.5",
         methods: [bankTransfer, card, ecoPayz, jcb, mastercard],
     },
     {
@@ -596,7 +596,7 @@ export const topFeatureCardData = [
         name: "BetStorm",
         description: " 10円をベットして、30円のフリーベットを獲得 ",
         img: betStorm,
-        rating: 5,
+        rating: "5",
         methods: [card, mastercard, visa, neteller],
     },
     {
@@ -604,7 +604,7 @@ export const topFeatureCardData = [
         name: "KingJ (キングJ)",
         description: " 200% + ¥11500 ",
         img: kingj,
-        rating: 5,
+        rating: "5",
         methods: [mastercard, paypal, visa, neteller],
     },
 ];
