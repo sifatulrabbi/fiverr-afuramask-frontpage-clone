@@ -11,7 +11,7 @@ export const Footer = () => {
 
             <footer className="footer flex flex-col justify-center items-center mt-10 rounded-t-2xl p-6 pb-14 text-white md:px-[8vw]">
                 <div className="w-full flex flex-row flex-wrap justify-center items-center md:flex-nowrap md:justify-between md:items-stretch">
-                    <div className="flex flex-col justify-start items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full md:items-start md:items-start">
+                    <div className="flex flex-col justify-start items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full md:items-start">
                         <span className="text-[gray] text-xs">
                             人気のカテゴリー
                         </span>
