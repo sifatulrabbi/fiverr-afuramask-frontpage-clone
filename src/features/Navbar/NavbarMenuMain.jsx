@@ -1,17 +1,17 @@
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
 import { useRecoilValue } from "recoil";
-import { navLinksSelector, showSubMenuSelector } from "../../states";
+import { navbarState, navLinksSelector } from "../../states";
 import { v4 } from "uuid";
 
 export const NavbarMenuMain = () => {
     const navLinks = useRecoilValue(navLinksSelector);
-    const showSubMenu = useRecoilValue(showSubMenuSelector);
+    const state = useRecoilValue(navbarState);
 
     return (
         <div
             className={`navbar-menu-main h-full transition-[max-height] duration-400 ${
-                showSubMenu ? "max-h-[2000px]" : "max-h-0 overflow-hidden"
+                state.showSubMenu ? "max-h-0 overflow-hidden" : "max-h-[2000px]"
             }`}
         >
             <span className="text-xs text-white block mb-1 px-4 pt-7">

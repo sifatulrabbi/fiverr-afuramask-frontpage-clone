@@ -15,20 +15,20 @@ import {
     Footer,
 } from "./features";
 import { SlotGamesSection } from "./features";
-import { showMenuSelector } from "./states";
+import { navbarState } from "./states";
 
 function App() {
-    const navMenuActive = useRecoilValue(showMenuSelector);
+    const state = useRecoilValue(navbarState);
 
     function lockScroll() {
-        if (navMenuActive) document.body.style.overflow = "hidden";
+        if (state.showMenu) document.body.style.overflow = "hidden";
         else document.body.style.overflow = "auto";
     }
 
     React.useEffect(() => {
         lockScroll();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [navMenuActive]);
+    }, [state.showMenu]);
 
     return (
         <>

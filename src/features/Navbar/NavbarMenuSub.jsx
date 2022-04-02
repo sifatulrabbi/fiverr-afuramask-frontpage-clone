@@ -1,26 +1,21 @@
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
 import { useRecoilValue } from "recoil";
-import {
-    activeMenuNameSelector,
-    navLinksSelector,
-    showSubMenuSelector,
-} from "../../states";
+import { navbarState, navLinksSelector } from "../../states";
 import { v4 } from "uuid";
 
 export const NavbarMenuSub = () => {
     const navLinks = useRecoilValue(navLinksSelector);
-    const showSubMenu = useRecoilValue(showSubMenuSelector);
-    const activeMenuName = useRecoilValue(activeMenuNameSelector);
+    const state = useRecoilValue(navbarState);
 
     return (
         <div
             className={`w-full h-full transition-[max-height] duration-400 ${
-                showSubMenu ? "max-h-[2000px]" : "max-h-0 overflow-hidden"
+                state.showSubMenu ? "max-h-[2000px]" : "max-h-0 overflow-hidden"
             }`}
         >
             <span className="text-xs text-white block mb-1 px-4 pt-7">
-                {activeMenuName}
+                {state.activeMenuName}
             </span>
             <ul className="w-full">
                 {navLinks.map((link) => (

@@ -2,14 +2,17 @@ import React from "react";
 import { useSetRecoilState } from "recoil";
 import { logo } from "../../assets";
 import { NavbarBtn } from "../../components";
-import { showMenuSelector } from "../../states";
+import { navbarState } from "../../states";
 import { NavMenu } from "./NavMenu";
 
 export const Navbar = () => {
-    const setMenuActive = useSetRecoilState(showMenuSelector);
+    const setMenuActive = useSetRecoilState(navbarState);
 
     function toggleNavMenu() {
-        setMenuActive();
+        setMenuActive((currState) => ({
+            ...currState,
+            showMenu: !currState.showMenu,
+        }));
     }
 
     return (
