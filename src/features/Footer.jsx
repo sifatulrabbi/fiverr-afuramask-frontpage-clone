@@ -9,13 +9,13 @@ export const Footer = () => {
                 }
             `}</style>
 
-            <footer className="footer flex flex-col justify-center items-center mt-10 rounded-t-2xl p-6 pb-14 text-white">
-                <div className="w-full flex flex-row flex-wrap justify-center items-center">
-                    <div className="flex flex-col justify-center items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full">
+            <footer className="footer flex flex-col justify-center items-center mt-10 rounded-t-2xl p-6 pb-14 text-white md:px-[8vw]">
+                <div className="w-full flex flex-row flex-wrap justify-center items-center md:flex-nowrap md:justify-between md:items-stretch">
+                    <div className="flex flex-col justify-start items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full md:items-start md:items-start">
                         <span className="text-[gray] text-xs">
                             人気のカテゴリー
                         </span>
-                        <ul className="flex flex-col gap-4 text-sm text-center">
+                        <ul className="flex flex-col gap-4 text-sm text-center md:text-left">
                             <li>
                                 <span className="text-primary">
                                     日本オンラインカジノ2022
@@ -32,11 +32,11 @@ export const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full">
-                        <span className="text-[gray] text-xs">
+                    <div className="flex flex-col justify-start items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full md:items-start">
+                        <span className="text-[gray] text-xs w-full md:text-left">
                             カジノレビュー
                         </span>
-                        <ul className="flex flex-col gap-4 text-sm text-center">
+                        <ul className="flex flex-col gap-4 text-sm text-center md:text-left">
                             <li>
                                 <a href="/">
                                     ベラジョンカジノ「Vera&amp;John」
@@ -53,9 +53,11 @@ export const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full">
-                        <span className="text-[gray] text-xs">最近の投稿</span>
-                        <ul className="flex flex-col gap-4 text-sm text-center">
+                    <div className="flex flex-col justify-start items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full md:items-start">
+                        <span className="text-[gray] text-xs w-full md:text-left">
+                            最近の投稿
+                        </span>
+                        <ul className="flex flex-col gap-4 text-sm text-center md:text-left">
                             <li>
                                 <a href="/">1000円の入金カジノ</a>
                             </li>
@@ -73,11 +75,11 @@ export const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full">
-                        <span className="text-[gray] text-xs">
+                    <div className="flex flex-col justify-start items-center gap-4 pb-8 mt-4 border-b-[1px] border-[#333] w-full md:items-start">
+                        <span className="text-[gray] text-xs w-full md:text-left">
                             インフォメーション
                         </span>
-                        <ul className="flex flex-col gap-4 text-sm text-center">
+                        <ul className="flex flex-col gap-4 text-sm text-center md:text-left">
                             <li>
                                 <a href="/">大吉カジノについて</a>
                             </li>
@@ -91,7 +93,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex flex-row flex-wrap gap-6 justify-center items-center">
+                <div className="w-full flex flex-row flex-wrap gap-6 justify-center items-center md:flex-row-reverse md:justify-between">
                     <div className="flex gap-3 flex-row flex-wrap justify-center items-center py-6">
                         <img
                             height="28"
@@ -124,7 +126,7 @@ export const Footer = () => {
                             className="h-[28px] object-cover mx-3"
                         />
                     </div>
-                    <div className="flex flex-col justify-center items-center text-[gray] text-xs">
+                    <div className="flex flex-col justify-center items-center text-[gray] text-xs md:items-start">
                         <div>Copyright © 2022 </div>
                         <p>全著作権所有</p>
                     </div>

@@ -25,7 +25,7 @@ export const SlotGamesSection = () => {
                 <h2 className="font-white text-2xl font-bold text-white text-center">
                     最高の日本オンラインカジノゲーム
                 </h2>
-                <div className="grid w-full grid-cols-2 justify-center items-center gap-2 mt-4">
+                <div className="grid w-full grid-cols-2 justify-center items-center gap-2 mt-4 md:grid-cols-4">
                     {bestOnlineGames.map(({ title, img }) => (
                         <CasinoTypeCard key={v4()} title={title} img={img} />
                     ))}

@@ -44,3 +44,6 @@ export { default as paypal } from "./paypal.png";
 export { default as sticpay } from "./sticpay_logo.png";
 export { default as venusPoint } from "./venuspoint-logo.png";
 export { default as bankTransfer } from "./bank-transfer.png";
+export { default as wining } from "./wining-kings.png";
+export { default as nitro } from "./nitro-casino.png";
+export { default as justSpin } from "./justspin-casino.jpg";

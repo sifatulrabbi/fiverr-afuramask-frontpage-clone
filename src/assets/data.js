@@ -38,6 +38,9 @@ import {
     neteller,
     kingj,
     paypal,
+    wining,
+    nitro,
+    justSpin,
 } from "./images";
 
 export const faqData = {
@@ -526,7 +529,7 @@ export const navLinks = [
     },
 ];
 
-export const topFeatureCardData = [
+export const topFeatureSpCardData = [
     {
         id: "1",
         name: "カジノデイズ 「Casino Days」",
@@ -551,6 +554,9 @@ export const topFeatureCardData = [
         rating: "4",
         methods: [card, mastercard, sticpay, venusPoint],
     },
+];
+
+export const topFeatureCardData = [
     {
         id: "4",
         name: "GG.BET",
@@ -606,5 +612,36 @@ export const topFeatureCardData = [
         img: kingj,
         rating: "5",
         methods: [mastercard, paypal, visa, neteller],
+    },
+];
+
+export const asideData = [
+    {
+        img: umiumi,
+        title: "合計＄777ボーナス",
+    },
+    {
+        img: supremoCasino,
+        title: "「Sweet Bonanza(スイートボナンザ）」の21フリースピン...",
+    },
+    {
+        img: ggBetLogo,
+        title: " 最大¥32000の預金ボーナス",
+    },
+    {
+        img: wining,
+        title: "ウェルカムボーナスは100％最高$1,000...",
+    },
+    {
+        img: casinoDays,
+        title: "最大1000ドル＋フリースピン合計350回分！...",
+    },
+    {
+        img: nitro,
+        title: "日本円で毎日もらえる新しいボーナス。...",
+    },
+    {
+        img: justSpin,
+        title: "登録するだけ100 Fire Joker 「ファイアジョーカー」の入金不要フリー...",
     },
 ];

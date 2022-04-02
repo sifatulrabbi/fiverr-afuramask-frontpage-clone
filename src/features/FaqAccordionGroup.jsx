@@ -21,7 +21,9 @@ const Accordion = ({ title, text, updateActive, active }) => {
                 onClick={handleShow}
             >
                 {title}
-                <FaChevronDown />
+                <FaChevronDown
+                    className={active === title ? "rotate-180" : "rotate-0"}
+                />
             </button>
             <div className="accordion-content" aria-expanded={show}>
                 <p className="mt-2">{text}</p>

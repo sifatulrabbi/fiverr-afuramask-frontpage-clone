@@ -3,7 +3,7 @@ import { ColoredListItem } from "../components";
 
 export const SectionCard = ({ img, listItemText, text, left }) => {
     return (
-        <div className="card-gradient rounded-2xl p-4">
+        <div className="card-gradient rounded-2xl p-4 w-full">
             {listItemText && <ColoredListItem text={listItemText} />}
             <p>
                 <img

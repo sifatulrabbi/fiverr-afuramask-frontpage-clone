@@ -28,6 +28,7 @@
 
 body {
     background-color: #05040d;
+    overflow-x: hidden !important;
 }
 
 .navbar-shadow {
@@ -113,4 +114,10 @@ body {
         rgba(4, 4, 13, 0.2)
     );
     @apply w-full h-full;
+}
+
+@media (min-width: 1024px) {
+    .navbar-shadow {
+        box-shadow: none;
+    }
 }

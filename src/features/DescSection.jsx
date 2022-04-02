@@ -19,7 +19,7 @@ export const DescSection = () => {
                     background-color: #110f1a;
                 }
              `}</style>
-            <section className="relative p-4 rounded-2xl my-10 overflow-hidden custom-bg">
+            <section className="relative p-4 rounded-2xl my-10 overflow-hidden custom-bg min-h-[115px]">
                 <p className="text-white">
                     大吉カジノ.jpは、日本人プレイヤーのためにオファー、キャンペーン、業界ニュースなどの専門的なレビューサイトです。ここでは、リアルマネーゲームのトップオンラインカジノを見つけることができます。
                 </p>

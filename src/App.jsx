@@ -15,6 +15,7 @@ import {
     Footer,
 } from "./features";
 import { SlotGamesSection } from "./features";
+import { Aside } from "./features/Aside";
 import { navbarState } from "./states";
 
 function App() {
@@ -33,19 +34,22 @@ function App() {
     return (
         <>
             <Navbar />
-            <main className="mt-[60px] p-4">
-                <Hero />
-                <TopSitesSection />
-                <DescSection />
-                <FaqSection />
-                <WhyUsSection />
-                <FeatureSection />
-                <CasinoTypeSection />
-                <PopularGames />
-                <SlotGamesSection />
-                <CurrencySection />
-                <FaqBottom />
-            </main>
+            <div className="w-full h-max flex flex-col justify-start items-start p-4 md:px-[8vw] xl:flex-row xl:gap-8">
+                <main className="mt-[60px] xl:max-w-[75%]">
+                    <Hero />
+                    <TopSitesSection />
+                    <DescSection />
+                    <FaqSection />
+                    <WhyUsSection />
+                    <FeatureSection />
+                    <CasinoTypeSection />
+                    <PopularGames />
+                    <SlotGamesSection />
+                    <CurrencySection />
+                    <FaqBottom />
+                </main>
+                <Aside />
+            </div>
             <Footer />
         </>
     );

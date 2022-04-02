@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 } from "uuid";
-import { topFeatureCardData } from "../assets";
+import { topFeatureCardData, topFeatureSpCardData } from "../assets";
 import { Card } from "../components";
 
 export const TopSitesSection = () => {
@@ -12,6 +12,23 @@ export const TopSitesSection = () => {
             >
                 ベストの日本オンラインカジノ
             </h2>
+            <div className="flex flex-wrap justify-start items-start gap-6 mb-8 md:flex-nowrap md:items-stretch">
+                {topFeatureSpCardData.map(
+                    ({ img, name, description, methods, rating, id }) => (
+                        <Card
+                            key={v4()}
+                            top={id}
+                            rating={rating}
+                            methods={methods}
+                            name={name}
+                            img={img}
+                            description={description}
+                            alt={Number(id) > 3}
+                        />
+                    )
+                )}
+            </div>
+
             <div className="flex flex-wrap justify-start items-start gap-4">
                 {topFeatureCardData.map(
                     ({ img, name, description, methods, rating, id }) => (
@@ -28,6 +45,9 @@ export const TopSitesSection = () => {
                     )
                 )}
             </div>
+            <button className="w-full bg-primary py-1 rounded-full text-white mt-3">
+                もっと見る
+            </button>
         </section>
     );
 };
