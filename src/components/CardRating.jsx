@@ -35,7 +35,7 @@ export const CardRating = ({ rating }) => {
     })();
 
     return (
-        <div className="w-full flex justify-center items-center gap-1">
+        <div className="flex justify-center items-center gap-1">
             {ratings.map((val) => (
                 <span key={v4()} className="text-primary text-lg">
                     {val === 0.5 ? (

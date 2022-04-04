@@ -17,7 +17,9 @@ export const Card = ({
     return (
         <div
             className={`relative flex flex-col justify-between items-center gap-4 p-6 text-white w-full min-h-full ${
-                alt ? "bg-gradient lg:flex-row" : "rounded-3xl bg-gradient-alt"
+                alt
+                    ? "bg-gradient lg:flex-row lg:grid lg:grid-cols-6"
+                    : "rounded-3xl bg-gradient-alt"
             } ${className}`}
         >
             <CardChip alt={alt} top={top} />
@@ -30,15 +32,15 @@ export const Card = ({
                     alt ? "md:h-[90px] w-auto" : ""
                 }`}
             />
-            <p className="font-bold text-center w-full">{name}</p>
-            <p className="text-lg text-center w-full">{description}</p>
+            <p className="font-bold text-center">{name}</p>
+            <p className="text-lg text-center">{description}</p>
             <CardRating rating={rating} />
             <span className={`text-gray-400 text-xs ${alt ? "lg:hidden" : ""}`}>
                 入出金方法
             </span>
             <div
-                className={`grid grid-cols-4 gap-1 px-4 w-max ${
-                    alt ? "lg:grid-cols-2  w-full" : ""
+                className={`grid grid-cols-4 gap-1 px-4 ${
+                    alt ? "lg:grid-cols-2  w-max" : ""
                 }`}
             >
                 {methods?.map((method) => (

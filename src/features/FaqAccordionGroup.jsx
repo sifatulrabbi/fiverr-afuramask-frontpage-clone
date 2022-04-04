@@ -15,7 +15,7 @@ const Accordion = ({ title, text, updateActive, active }) => {
     }
 
     return (
-        <div className="text-white bg-[#110f1a] rounded-2xl p-4">
+        <div className="text-white bg-[#110f1a] rounded-2xl p-4 w-full">
             <button
                 className="text-left w-full flex justify-between items-start"
                 onClick={handleShow}
@@ -25,7 +25,7 @@ const Accordion = ({ title, text, updateActive, active }) => {
                     className={active === title ? "rotate-180" : "rotate-0"}
                 />
             </button>
-            <div className="accordion-content" aria-expanded={show}>
+            <div className="accordion-content w-full" aria-expanded={show}>
                 <p className="mt-2">{text}</p>
             </div>
         </div>
